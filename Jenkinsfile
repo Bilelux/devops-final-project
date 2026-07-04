@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:Bilelux/devops-final-project.git'
+                    url: 'https://git@github.com:Bilelux/devops-final-project.git'
             }
         }
 
